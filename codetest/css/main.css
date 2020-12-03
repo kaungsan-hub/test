@@ -1,0 +1,75 @@
+.datatable{
+	
+}
+
+.datatable tr:nth-child(even){
+	background-color: #ffffee;
+}
+
+.datatable tr:nth-child(odd){
+	background-color: #eeeeff;
+}
+
+.datatable tr:first-child{
+	background-color: #eaeaea !important;
+}
+
+.datatable tr:last-child{
+	background-color: #eaeaea !important;
+}
+
+.datatable td{
+	border-right: solid 1px #ffffff;
+	border-left: solid 0px #ffffff;
+}
+
+/* result display */
+div.rd{
+	border: dotted 1px #000033;
+	padding: 8px;
+}
+
+/* result table */
+table.rt{
+	border: solid 1px #000000;
+}
+
+table.rt td, table.rt th{
+	border: solid 1px #000000;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.errmsg{
+	color: #ff0000;
+}
+
+.susmsg{
+	color: #00cc00;
+}
+
+input.disabled{
+	background-color: #ebebe4;
+}
+
+a.menubutton{
+	display: inline-block;
+	border: solid 1px #999999;
+	padding-top: 3px;
+	text-decoration: none;
+	text-align: center;
+	padding-bottom: 3px;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	box-sizing: content-box;
+	border-radius: 4px;
+}
+
+a.menubutton:hover{
+	background-color: #f9f9f9;
+	opacity: 0.9;
+}

@@ -12,7 +12,14 @@
 			$password=md5($password);
 
 			$connect =mysqli_connect("localhost","root","","php");
+			$qry="SELECT * FROM human WHERE email='$email'";
+			$ret=mysqli_query($connect, $qry);
+			echo mysqli_num_rows($ret);
+			if (mysqli_num_rows($ret)>0) {
+				echo "Email is already exist. Try again.";
+			}else{
 			$result=mysqli_query($connect, "INSERT INTO `human` (`name`,`email`,`password`)VALUES('$name','$email','$password')");
+		}
 				mysqli_close($connect);
 		}
 	?>

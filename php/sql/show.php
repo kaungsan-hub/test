@@ -19,4 +19,9 @@ $result =  mysqli_query($connect, "SELECT * FROM human");
 //	foreach ($row as $key=>$value) {
 //		echo "$value";
 //	}
+
+   
+// $ans=mysqli_query($connect,$result);
+// $show=mysqli_num_rows($ans);
+// echo $show;
 ?>	

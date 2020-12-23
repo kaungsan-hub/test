@@ -1,6 +1,6 @@
 <?php
     $connect=mysqli_connect("localhost","root","","php");
-    $sql="CREATE TABLE KS(
+    $sql="CREATE TABLE human(
     id int NOT NULL PRIMARY KEY AUTO_INCREMENT, 
     name VARCHAR(20) NOT NULL, 
     email VARCHAR(20) NOT NULL, 
@@ -11,3 +11,4 @@
     echo $result ? "Table create successful" : "Table create fail";
 
 ?>
+
